@@ -211,7 +211,7 @@ export default function UpdateCenter() {
               <div className="nx-update-kv">
                 <div className="k">{t('更新错误', 'Update error')}</div>
                 <div className="v">
-                  {t('当前构建未配置可用的发布源。', 'This build has no configured release source.')}
+                  {t('更新检查或下载过程中发生错误。', 'An error occurred while checking or downloading updates.')}
                 </div>
               </div>
               <pre className="nx-update-err">{errMsg || t('未知更新错误', 'Unknown update error')}</pre>

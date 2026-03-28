@@ -34,32 +34,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-### 生产构建
-
-```bash
-npm run build
-```
-
-构建完成后：
-
-- 前端产物位于 `dist/`
-- Electron 打包产物位于 `dist-electron/`
-
-## 发布说明
-
-项目内置了 GitHub Actions 发布流程：
-
-- 推送 `v*` 格式标签后，会自动触发 Windows 构建
-- 构建产物会作为 GitHub Release 附件上传
-
-工作流文件位置：
-
-- `.github/workflows/release.yml`
-
-## 项目信息
-
-- 软件名称：AiTnt
-- 作者：XiaoYu
-- 默认语言：中文
-- 仓库地址：未配置

@@ -12,7 +12,7 @@ export type UpdaterEvent =
   | { type: 'update-downloaded'; version: string }
   | { type: 'error'; message: string }
 
-const RELEASES_URL = ''
+const RELEASES_URL = 'https://github.com/locqueliu/AiTnt/releases'
 
 let win: BrowserWindow | null = null
 let initialized = false

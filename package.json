@@ -3,6 +3,14 @@
   "version": "1.0.4",
   "description": "AiTnt - AI Generation and Workflow Desktop App",
   "author": "XiaoYu",
+  "homepage": "https://github.com/locqueliu/AiTnt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/locqueliu/AiTnt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/locqueliu/AiTnt/issues"
+  },
   "main": "dist/main/index.js",
   "scripts": {
     "dev": "vite",
@@ -43,7 +51,13 @@
       "buildResources": "build"
     },
     "artifactName": "${productName}-Setup-${version}.${ext}",
-    "publish": [],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "locqueliu",
+        "repo": "AiTnt"
+      }
+    ],
     "win": {
       "target": [
         "nsis"

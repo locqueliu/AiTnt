@@ -412,7 +412,10 @@ export default function SettingsView() {
           <div className="st-inline-left">
             <div className="st-inline-title">{t('发布源', 'Release source')}</div>
             <div className="st-inline-desc">
-              {t('这个 AiTnt 重构版本保留了空仓库字段，因此没有配置发布页面。', 'This AiTnt rebuild keeps the repository field blank, so release pages are not configured.')}
+              {t(
+                '当前版本已连接到 GitHub Releases，可用于查看发布记录与后续自动更新。',
+                'This build is connected to GitHub Releases for release pages and future auto updates.'
+              )}
             </div>
           </div>
           <button
@@ -427,6 +430,15 @@ export default function SettingsView() {
           >
             {t('打开发布页', 'Open releases')}
           </button>
+        </div>
+
+        <div className="st-input-wrapper" style={{ marginTop: 10 }}>
+          <input
+            type="text"
+            className="st-input"
+            value="https://github.com/locqueliu/AiTnt/releases"
+            readOnly
+          />
         </div>
       </div>
     </div>
