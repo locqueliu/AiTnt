@@ -1,0 +1,31 @@
+﻿{
+  "schema_version": "1.0",
+  "node_id": "aitnt.custom.asset.video",
+  "version": "1.0.0",
+  "display_name": "Video",
+  "description": "瑙嗛璧勬簮鑺傜偣",
+  "category": "璧勬簮",
+  "tags": ["asset", "video"],
+  "search_aliases": ["video", "瑙嗛", "璧勬簮"],
+  "runtime": {
+    "kind": "custom",
+    "entry": "asset"
+  },
+  "interface": {
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "asset",
+        "type": "asset:video"
+      }
+    ],
+    "params": [
+      { "name": "file_name", "type": "string", "label": "鏂囦欢鍚?, "default": "" },
+      { "name": "mime", "type": "string", "label": "MIME", "default": "" },
+      { "name": "size_bytes", "type": "number", "label": "澶у皬(bytes)", "default": 0 },
+      { "name": "file_path", "type": "string", "label": "璺緞", "default": "" }
+    ]
+  },
+  "permissions": []
+}
+

@@ -1,0 +1,12 @@
+﻿# AiTnt AI 寮曟搸渚濊禆鍒楄〃 (棰勭暀)
+# pip install -r requirements.txt
+
+# 甯哥敤 web 妗嗘灦鐢ㄤ簬涓庡墠绔繘琛屾湰鍦伴€氫俊
+# fastapi==0.103.1
+# uvicorn==0.23.2
+
+# 鍥惧儚/瑙嗛澶勭悊鏍稿績
+# torch>=2.0.0
+# diffusers>=0.20.0
+# transformers>=4.33.0
+

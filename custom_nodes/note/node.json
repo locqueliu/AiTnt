@@ -1,0 +1,40 @@
+﻿{
+  "schema_version": "1.0",
+  "node_id": "aitnt.custom.note",
+  "version": "1.0.0",
+  "display_name": "Note",
+  "description": "渚跨 / 娉ㄩ噴鑺傜偣",
+  "category": "鍩虹",
+  "tags": ["note", "text"],
+  "search_aliases": ["note", "渚跨", "娉ㄩ噴"],
+  "runtime": {
+    "kind": "custom",
+    "entry": "note"
+  },
+  "interface": {
+    "inputs": [
+      {
+        "name": "in",
+        "type": "string",
+        "required": false,
+        "multiple": false
+      }
+    ],
+    "outputs": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ],
+    "params": [
+      {
+        "name": "note",
+        "type": "text",
+        "label": "鍐呭",
+        "default": ""
+      }
+    ]
+  },
+  "permissions": []
+}
+

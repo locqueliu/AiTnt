@@ -1,0 +1,46 @@
+﻿{
+  "schema_version": "1.0",
+  "node_id": "aitnt.custom.text",
+  "version": "1.0.0",
+  "display_name": "Text",
+  "description": "杈撳叆涓€娈垫枃鏈紝杈撳嚭涓哄瓧绗︿覆",
+  "category": "鍩虹",
+  "tags": ["text", "input"],
+  "search_aliases": ["text", "鏂囨湰", "杈撳叆鏂囧瓧"],
+  "runtime": {
+    "kind": "custom",
+    "entry": "text"
+  },
+  "interface": {
+    "inputs": [
+      {
+        "name": "in",
+        "type": "string",
+        "required": false,
+        "multiple": false
+      }
+    ],
+    "outputs": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ],
+    "params": [
+      {
+        "name": "text",
+        "type": "text",
+        "label": "鏂囨湰",
+        "default": ""
+      },
+      {
+        "name": "use_input_when_connected",
+        "type": "boolean",
+        "label": "鏈夎緭鍏ユ椂浣跨敤杈撳叆",
+        "default": true
+      }
+    ]
+  },
+  "permissions": []
+}
+
