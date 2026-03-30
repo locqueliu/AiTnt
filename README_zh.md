@@ -1,3 +1,5 @@
+![Repo banner](./assets/repo-banner.svg)
+
 # AiTnt
 
 [English Version](./README.md)
